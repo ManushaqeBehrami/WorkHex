@@ -1,0 +1,5 @@
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.csproj.AssemblyReference.cache
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.AssemblyInfoInputs.cache
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.AssemblyInfo.cs
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.csproj.CoreCompileInputs.cache

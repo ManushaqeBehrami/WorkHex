@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HexaFullStack.Application/1.0.0": {
+        "dependencies": {
+          "HexaFullStack.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HexaFullStack.Application.dll": {}
+        }
+      },
+      "HexaFullStack.Domain/1.0.0": {
+        "runtime": {
+          "HexaFullStack.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HexaFullStack.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HexaFullStack.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

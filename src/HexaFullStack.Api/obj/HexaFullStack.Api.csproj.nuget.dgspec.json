@@ -1,0 +1,347 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Api/HexaFullStack.Api.csproj": {}
+  },
+  "projects": {
+    "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Api/HexaFullStack.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Api/HexaFullStack.Api.csproj",
+        "projectName": "HexaFullStack.Api",
+        "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Api/HexaFullStack.Api.csproj",
+        "packagesPath": "/home/docrrumullaki/.nuget/packages/",
+        "outputPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/docrrumullaki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/HexaFullStack.Application.csproj": {
+                "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/HexaFullStack.Application.csproj"
+              },
+              "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/HexaFullStack.Infrastructure.csproj": {
+                "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/HexaFullStack.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/HexaFullStack.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/HexaFullStack.Application.csproj",
+        "projectName": "HexaFullStack.Application",
+        "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/HexaFullStack.Application.csproj",
+        "packagesPath": "/home/docrrumullaki/.nuget/packages/",
+        "outputPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/docrrumullaki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/HexaFullStack.Domain.csproj": {
+                "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/HexaFullStack.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/HexaFullStack.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/HexaFullStack.Domain.csproj",
+        "projectName": "HexaFullStack.Domain",
+        "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/HexaFullStack.Domain.csproj",
+        "packagesPath": "/home/docrrumullaki/.nuget/packages/",
+        "outputPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/docrrumullaki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/HexaFullStack.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/HexaFullStack.Infrastructure.csproj",
+        "projectName": "HexaFullStack.Infrastructure",
+        "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/HexaFullStack.Infrastructure.csproj",
+        "packagesPath": "/home/docrrumullaki/.nuget/packages/",
+        "outputPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/docrrumullaki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/HexaFullStack.Application.csproj": {
+                "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/HexaFullStack.Application.csproj"
+              },
+              "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/HexaFullStack.Domain.csproj": {
+                "projectPath": "/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/HexaFullStack.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

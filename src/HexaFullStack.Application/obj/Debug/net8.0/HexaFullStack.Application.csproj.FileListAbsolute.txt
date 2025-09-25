@@ -1,0 +1,15 @@
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/bin/Debug/net8.0/HexaFullStack.Application.deps.json
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/bin/Debug/net8.0/HexaFullStack.Application.dll
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/bin/Debug/net8.0/HexaFullStack.Application.pdb
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/bin/Debug/net8.0/HexaFullStack.Domain.dll
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/bin/Debug/net8.0/HexaFullStack.Domain.pdb
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.csproj.AssemblyReference.cache
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.AssemblyInfoInputs.cache
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.AssemblyInfo.cs
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.csproj.CoreCompileInputs.cache
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFull.08A66B26.Up2Date
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.dll
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/refint/HexaFullStack.Application.dll
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.pdb
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Application/obj/Debug/net8.0/ref/HexaFullStack.Application.dll

@@ -1,0 +1,11 @@
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/bin/Debug/net8.0/HexaFullStack.Domain.deps.json
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/bin/Debug/net8.0/HexaFullStack.Domain.dll
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/bin/Debug/net8.0/HexaFullStack.Domain.pdb
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.AssemblyInfoInputs.cache
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.AssemblyInfo.cs
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.csproj.CoreCompileInputs.cache
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.dll
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/refint/HexaFullStack.Domain.dll
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.pdb
+/home/docrrumullaki/HexaFullStack/src/HexaFullStack.Domain/obj/Debug/net8.0/ref/HexaFullStack.Domain.dll
