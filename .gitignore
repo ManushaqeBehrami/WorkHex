@@ -1,0 +1,19 @@
+# Dotnet
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# VSCode / Visual Studio
+.vscode/
+.vs/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
