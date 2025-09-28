@@ -17,3 +17,11 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.AssemblyInfo.cs
+src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.AssemblyInfoInputs.cache
+src/HexaFullStack.Application/obj/Debug/net8.0/HexaFullStack.Application.csproj.AssemblyReference.cache
+src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.AssemblyInfo.cs
+src/HexaFullStack.Domain/obj/Debug/net8.0/HexaFullStack.Domain.AssemblyInfoInputs.cache
+src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.AssemblyInfo.cs
+src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.AssemblyInfoInputs.cache
+src/HexaFullStack.Infrastructure/obj/Debug/net8.0/HexaFullStack.Infrastructure.csproj.AssemblyReference.cache
