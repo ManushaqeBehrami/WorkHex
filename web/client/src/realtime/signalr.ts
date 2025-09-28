@@ -1,15 +1,21 @@
 import * as signalR from "@microsoft/signalr";
 
 export async function startHub() {
-  const token = localStorage.getItem("accessToken") || "";
+  const token = localStorage.getItem("accessToken");
+
   const connection = new signalR.HubConnectionBuilder()
-    .withUrl("https://localhost:5001/hubs/notifications", { accessTokenFactory: () => token })
+    .withUrl("http://localhost:5001/hubs/notifications", {
+      accessTokenFactory: () => token || "",
+    })
     .withAutomaticReconnect()
     .build();
 
-  connection.on("users:registered", (payload) => console.log("New user registered:", payload));
-  connection.on("app:announcement", (payload) => console.log("Announcement:", payload));
+  try {
+    await connection.start();
+    console.log("SignalR connected");
+  } catch (err) {
+    console.error("SignalR connection failed:", err);
+  }
 
-  await connection.start();
   return connection;
 }

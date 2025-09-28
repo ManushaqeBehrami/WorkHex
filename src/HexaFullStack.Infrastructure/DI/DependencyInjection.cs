@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using HexaFullStack.Application.Abstractions.Persistence;
 using HexaFullStack.Application.Abstractions.Realtime;
 using HexaFullStack.Application.Abstractions.Security;
+using HexaFullStack.Application.UseCases.Users;
 using HexaFullStack.Infrastructure.Persistence.MySql;
 using HexaFullStack.Infrastructure.Persistence.Mongo;
 using HexaFullStack.Infrastructure.Realtime;
@@ -35,6 +36,8 @@ public static class DependencyInjection
 
         services.AddSignalR();
         services.AddSingleton<INotificationBus, SignalRNotificationBus>();
+        services.AddScoped<RegisterUser>();
+        services.AddScoped<LoginUser>();
         return services;
     }
 }
